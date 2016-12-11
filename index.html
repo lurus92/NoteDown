@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html style="
+    height: 100%;
+"><head>
+    <meta charset="UTF-8">
+    <title>DayTime</title>
+    <link rel="stylesheet" href="css/startup.css">
+    <script>window.$ = window.jQuery = require('./js/jquery-3.0.0.min.js');</script>
+    <script>
+        
+        
+        $( document ).ready(function() {
+            for (var i=0; i<innerHeight; i+=20){
+                $("body").append(`<hr style='
+                    position: absolute;
+                    top: `+i+`px;
+                    width: 100%;
+                    color: gray;
+                    background-color: gray;
+                    opacity: 0.1;
+                    margin: 0;
+                '>`);
+            }
+        });
+    </script>
+
+  </head>
+  <body style="
+    margin: 0;
+">
+  <textarea style="
+    width: 100%;
+    max-width: 100%;
+    padding: 5px;
+    text-size: 20px;
+    line-height: 20px;
+    
+    height: 100%;
+    background-color: transparent;
+    /* vertical-align: top; */
+    /* text-align: inherit; */
+    ">TO DO:
+• Miglioramento UI.
+• Formattazione Markdown
+• Salvataggio su File</textarea>
+  
+  
+</body></html>

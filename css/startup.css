@@ -1,0 +1,36 @@
+html{
+    -webkit-app-region: drag;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+body{
+    background-color: whitesmoke;
+    width: 800px;
+    height: 600px;
+    font-family: "Helvetica Neue","Helvetica","Calibri";
+    color: black;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1{
+    color: dodgerblue;
+    font-weight: 100;
+    font-size: 70px;
+    margin: 10px;
+}
+
+.circle-container{
+    width: 400px;
+    /* display: inline-block; */
+    position: absolute;
+    /* top: 25px; */
+    left: 198px;
+}
+
+#timeElapsedActivity{
+    position: absolute;
+    left: 296px;
+    top: 350px;
+}
